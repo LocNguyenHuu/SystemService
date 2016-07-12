@@ -9,12 +9,43 @@
 /* Begin PBXBuildFile section */
 		274C59F71D32951A002654CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C59F61D32951A002654CB /* main.m */; };
 		274C59FA1D32951A002654CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C59F91D32951A002654CB /* AppDelegate.m */; };
-		274C59FD1D32951A002654CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C59FC1D32951A002654CB /* ViewController.m */; };
 		274C5A001D32951A002654CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274C59FE1D32951A002654CB /* Main.storyboard */; };
 		274C5A021D32951A002654CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 274C5A011D32951A002654CB /* Assets.xcassets */; };
 		274C5A051D32951A002654CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 274C5A031D32951A002654CB /* LaunchScreen.storyboard */; };
 		274C5A101D32951A002654CB /* SystemServiceTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C5A0F1D32951A002654CB /* SystemServiceTests.m */; };
 		274C5A1B1D32951A002654CB /* SystemServiceUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C5A1A1D32951A002654CB /* SystemServiceUITests.m */; };
+		274C5A341D3298E5002654CB /* Disk.png in Resources */ = {isa = PBXBuildFile; fileRef = 274C5A2A1D3298E5002654CB /* Disk.png */; };
+		274C5A351D3298E5002654CB /* Disk@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 274C5A2B1D3298E5002654CB /* Disk@2x.png */; };
+		274C5A361D3298E5002654CB /* Hardware.png in Resources */ = {isa = PBXBuildFile; fileRef = 274C5A2C1D3298E5002654CB /* Hardware.png */; };
+		274C5A371D3298E5002654CB /* Hardware@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 274C5A2D1D3298E5002654CB /* Hardware@2x.png */; };
+		274C5A381D3298E5002654CB /* Memory.png in Resources */ = {isa = PBXBuildFile; fileRef = 274C5A2E1D3298E5002654CB /* Memory.png */; };
+		274C5A391D3298E5002654CB /* Memory@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 274C5A2F1D3298E5002654CB /* Memory@2x.png */; };
+		274C5A3A1D3298E5002654CB /* Network.png in Resources */ = {isa = PBXBuildFile; fileRef = 274C5A301D3298E5002654CB /* Network.png */; };
+		274C5A3B1D3298E5002654CB /* Network@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 274C5A311D3298E5002654CB /* Network@2x.png */; };
+		274C5A3C1D3298E5002654CB /* Processes.png in Resources */ = {isa = PBXBuildFile; fileRef = 274C5A321D3298E5002654CB /* Processes.png */; };
+		274C5A3D1D3298E5002654CB /* Processes@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 274C5A331D3298E5002654CB /* Processes@2x.png */; };
+		274C5A421D329976002654CB /* PCPieChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C5A411D329976002654CB /* PCPieChart.m */; };
+		274C5A511D32997D002654CB /* MSAnnotatedGauge.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C5A441D32997D002654CB /* MSAnnotatedGauge.m */; };
+		274C5A521D32997D002654CB /* MSArcLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C5A461D32997D002654CB /* MSArcLayer.m */; };
+		274C5A531D32997D002654CB /* MSGradientArcLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C5A491D32997D002654CB /* MSGradientArcLayer.m */; };
+		274C5A541D32997D002654CB /* MSNeedleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C5A4B1D32997D002654CB /* MSNeedleView.m */; };
+		274C5A551D32997D002654CB /* MSRangeGauge.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C5A4D1D32997D002654CB /* MSRangeGauge.m */; };
+		274C5A561D32997D002654CB /* MSSimpleGauge.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C5A4F1D32997D002654CB /* MSSimpleGauge.m */; };
+		274C5A591D329A5A002654CB /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274C5A581D329A5A002654CB /* QuartzCore.framework */; };
+		274C5A5B1D329A61002654CB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274C5A5A1D329A61002654CB /* AVFoundation.framework */; };
+		274C5A5D1D329A6B002654CB /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274C5A5C1D329A6B002654CB /* ExternalAccessory.framework */; };
+		274C5A5F1D329A74002654CB /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274C5A5E1D329A74002654CB /* CoreText.framework */; };
+		274C5A611D329A7A002654CB /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274C5A601D329A7A002654CB /* CoreMotion.framework */; };
+		274C5A631D329A8B002654CB /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274C5A621D329A8B002654CB /* Security.framework */; };
+		274C5A651D329A94002654CB /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274C5A641D329A94002654CB /* CoreTelephony.framework */; };
+		274C5A671D329A99002654CB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274C5A661D329A99002654CB /* UIKit.framework */; };
+		274C5A691D329AA1002654CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274C5A681D329AA1002654CB /* Foundation.framework */; };
+		274C5A6B1D329AA7002654CB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 274C5A6A1D329AA7002654CB /* CoreGraphics.framework */; };
+		274C5A711D32AF4D002654CB /* SSAccelerometerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C5A701D32AF4D002654CB /* SSAccelerometerInfo.m */; };
+		274C5A741D333AE4002654CB /* SSAccessoryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C5A731D333AE4002654CB /* SSAccessoryInfo.m */; };
+		274C5A771D339F0B002654CB /* SSApplicationInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C5A761D339F0B002654CB /* SSApplicationInfo.m */; };
+		274C5A7A1D348FAA002654CB /* SSBatteryInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C5A791D348FAA002654CB /* SSBatteryInfo.m */; };
+		274C5A7D1D349154002654CB /* SSCarrierInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 274C5A7C1D349154002654CB /* SSCarrierInfo.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +70,6 @@
 		274C59F61D32951A002654CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		274C59F81D32951A002654CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		274C59F91D32951A002654CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		274C59FB1D32951A002654CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		274C59FC1D32951A002654CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		274C59FF1D32951A002654CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		274C5A011D32951A002654CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		274C5A041D32951A002654CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +80,52 @@
 		274C5A161D32951A002654CB /* SystemServiceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SystemServiceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		274C5A1A1D32951A002654CB /* SystemServiceUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemServiceUITests.m; sourceTree = "<group>"; };
 		274C5A1C1D32951A002654CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		274C5A2A1D3298E5002654CB /* Disk.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Disk.png; path = Images/Disk.png; sourceTree = "<group>"; };
+		274C5A2B1D3298E5002654CB /* Disk@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Disk@2x.png"; path = "Images/Disk@2x.png"; sourceTree = "<group>"; };
+		274C5A2C1D3298E5002654CB /* Hardware.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Hardware.png; path = Images/Hardware.png; sourceTree = "<group>"; };
+		274C5A2D1D3298E5002654CB /* Hardware@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Hardware@2x.png"; path = "Images/Hardware@2x.png"; sourceTree = "<group>"; };
+		274C5A2E1D3298E5002654CB /* Memory.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Memory.png; path = Images/Memory.png; sourceTree = "<group>"; };
+		274C5A2F1D3298E5002654CB /* Memory@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Memory@2x.png"; path = "Images/Memory@2x.png"; sourceTree = "<group>"; };
+		274C5A301D3298E5002654CB /* Network.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Network.png; path = Images/Network.png; sourceTree = "<group>"; };
+		274C5A311D3298E5002654CB /* Network@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Network@2x.png"; path = "Images/Network@2x.png"; sourceTree = "<group>"; };
+		274C5A321D3298E5002654CB /* Processes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Processes.png; path = Images/Processes.png; sourceTree = "<group>"; };
+		274C5A331D3298E5002654CB /* Processes@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Processes@2x.png"; path = "Images/Processes@2x.png"; sourceTree = "<group>"; };
+		274C5A401D329976002654CB /* PCPieChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PCPieChart.h; path = "Pie Chart/PCPieChart.h"; sourceTree = "<group>"; };
+		274C5A411D329976002654CB /* PCPieChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PCPieChart.m; path = "Pie Chart/PCPieChart.m"; sourceTree = "<group>"; };
+		274C5A431D32997D002654CB /* MSAnnotatedGauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSAnnotatedGauge.h; path = Gauges/MSAnnotatedGauge.h; sourceTree = "<group>"; };
+		274C5A441D32997D002654CB /* MSAnnotatedGauge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSAnnotatedGauge.m; path = Gauges/MSAnnotatedGauge.m; sourceTree = "<group>"; };
+		274C5A451D32997D002654CB /* MSArcLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSArcLayer.h; path = Gauges/MSArcLayer.h; sourceTree = "<group>"; };
+		274C5A461D32997D002654CB /* MSArcLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSArcLayer.m; path = Gauges/MSArcLayer.m; sourceTree = "<group>"; };
+		274C5A471D32997D002654CB /* MSArcLayerSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSArcLayerSubclass.h; path = Gauges/MSArcLayerSubclass.h; sourceTree = "<group>"; };
+		274C5A481D32997D002654CB /* MSGradientArcLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSGradientArcLayer.h; path = Gauges/MSGradientArcLayer.h; sourceTree = "<group>"; };
+		274C5A491D32997D002654CB /* MSGradientArcLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSGradientArcLayer.m; path = Gauges/MSGradientArcLayer.m; sourceTree = "<group>"; };
+		274C5A4A1D32997D002654CB /* MSNeedleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSNeedleView.h; path = Gauges/MSNeedleView.h; sourceTree = "<group>"; };
+		274C5A4B1D32997D002654CB /* MSNeedleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSNeedleView.m; path = Gauges/MSNeedleView.m; sourceTree = "<group>"; };
+		274C5A4C1D32997D002654CB /* MSRangeGauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSRangeGauge.h; path = Gauges/MSRangeGauge.h; sourceTree = "<group>"; };
+		274C5A4D1D32997D002654CB /* MSRangeGauge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSRangeGauge.m; path = Gauges/MSRangeGauge.m; sourceTree = "<group>"; };
+		274C5A4E1D32997D002654CB /* MSSimpleGauge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSSimpleGauge.h; path = Gauges/MSSimpleGauge.h; sourceTree = "<group>"; };
+		274C5A4F1D32997D002654CB /* MSSimpleGauge.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MSSimpleGauge.m; path = Gauges/MSSimpleGauge.m; sourceTree = "<group>"; };
+		274C5A501D32997D002654CB /* MSSimpleGaugeSubclass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSSimpleGaugeSubclass.h; path = Gauges/MSSimpleGaugeSubclass.h; sourceTree = "<group>"; };
+		274C5A581D329A5A002654CB /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		274C5A5A1D329A61002654CB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		274C5A5C1D329A6B002654CB /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
+		274C5A5E1D329A74002654CB /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		274C5A601D329A7A002654CB /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		274C5A621D329A8B002654CB /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		274C5A641D329A94002654CB /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		274C5A661D329A99002654CB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		274C5A681D329AA1002654CB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		274C5A6A1D329AA7002654CB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		274C5A6F1D32AF4D002654CB /* SSAccelerometerInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSAccelerometerInfo.h; path = Utilities/SSAccelerometerInfo.h; sourceTree = "<group>"; };
+		274C5A701D32AF4D002654CB /* SSAccelerometerInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSAccelerometerInfo.m; path = Utilities/SSAccelerometerInfo.m; sourceTree = "<group>"; };
+		274C5A721D333AE4002654CB /* SSAccessoryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSAccessoryInfo.h; path = Utilities/SSAccessoryInfo.h; sourceTree = "<group>"; };
+		274C5A731D333AE4002654CB /* SSAccessoryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSAccessoryInfo.m; path = Utilities/SSAccessoryInfo.m; sourceTree = "<group>"; };
+		274C5A751D339F0B002654CB /* SSApplicationInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSApplicationInfo.h; path = Utilities/SSApplicationInfo.h; sourceTree = "<group>"; };
+		274C5A761D339F0B002654CB /* SSApplicationInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSApplicationInfo.m; path = Utilities/SSApplicationInfo.m; sourceTree = "<group>"; };
+		274C5A781D348FAA002654CB /* SSBatteryInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSBatteryInfo.h; path = Utilities/SSBatteryInfo.h; sourceTree = "<group>"; };
+		274C5A791D348FAA002654CB /* SSBatteryInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSBatteryInfo.m; path = Utilities/SSBatteryInfo.m; sourceTree = "<group>"; };
+		274C5A7B1D349154002654CB /* SSCarrierInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SSCarrierInfo.h; path = Utilities/SSCarrierInfo.h; sourceTree = "<group>"; };
+		274C5A7C1D349154002654CB /* SSCarrierInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SSCarrierInfo.m; path = Utilities/SSCarrierInfo.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +133,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				274C5A6B1D329AA7002654CB /* CoreGraphics.framework in Frameworks */,
+				274C5A691D329AA1002654CB /* Foundation.framework in Frameworks */,
+				274C5A671D329A99002654CB /* UIKit.framework in Frameworks */,
+				274C5A651D329A94002654CB /* CoreTelephony.framework in Frameworks */,
+				274C5A631D329A8B002654CB /* Security.framework in Frameworks */,
+				274C5A611D329A7A002654CB /* CoreMotion.framework in Frameworks */,
+				274C5A5F1D329A74002654CB /* CoreText.framework in Frameworks */,
+				274C5A5D1D329A6B002654CB /* ExternalAccessory.framework in Frameworks */,
+				274C5A5B1D329A61002654CB /* AVFoundation.framework in Frameworks */,
+				274C5A591D329A5A002654CB /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,13 +186,12 @@
 		274C59F41D32951A002654CB /* SystemService */ = {
 			isa = PBXGroup;
 			children = (
-				274C59F81D32951A002654CB /* AppDelegate.h */,
-				274C59F91D32951A002654CB /* AppDelegate.m */,
-				274C59FB1D32951A002654CB /* ViewController.h */,
-				274C59FC1D32951A002654CB /* ViewController.m */,
-				274C59FE1D32951A002654CB /* Main.storyboard */,
+				274C5A6E1D32AF26002654CB /* Storyboard */,
+				274C5A6D1D32AF17002654CB /* AppDelegate */,
+				274C5A6C1D32AF01002654CB /* Utilities */,
+				274C5A571D329992002654CB /* Frameworks */,
+				274C5A281D3298C7002654CB /* Supporting Files */,
 				274C5A011D32951A002654CB /* Assets.xcassets */,
-				274C5A031D32951A002654CB /* LaunchScreen.storyboard */,
 				274C5A061D32951A002654CB /* Info.plist */,
 				274C59F51D32951A002654CB /* Supporting Files */,
 			);
@@ -138,6 +222,115 @@
 				274C5A1C1D32951A002654CB /* Info.plist */,
 			);
 			path = SystemServiceUITests;
+			sourceTree = "<group>";
+		};
+		274C5A281D3298C7002654CB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				274C5A3F1D3298FA002654CB /* Pie Chart */,
+				274C5A3E1D3298F0002654CB /* Gauges */,
+				274C5A291D3298D2002654CB /* Images */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		274C5A291D3298D2002654CB /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				274C5A2A1D3298E5002654CB /* Disk.png */,
+				274C5A2B1D3298E5002654CB /* Disk@2x.png */,
+				274C5A2C1D3298E5002654CB /* Hardware.png */,
+				274C5A2D1D3298E5002654CB /* Hardware@2x.png */,
+				274C5A2E1D3298E5002654CB /* Memory.png */,
+				274C5A2F1D3298E5002654CB /* Memory@2x.png */,
+				274C5A301D3298E5002654CB /* Network.png */,
+				274C5A311D3298E5002654CB /* Network@2x.png */,
+				274C5A321D3298E5002654CB /* Processes.png */,
+				274C5A331D3298E5002654CB /* Processes@2x.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		274C5A3E1D3298F0002654CB /* Gauges */ = {
+			isa = PBXGroup;
+			children = (
+				274C5A431D32997D002654CB /* MSAnnotatedGauge.h */,
+				274C5A441D32997D002654CB /* MSAnnotatedGauge.m */,
+				274C5A451D32997D002654CB /* MSArcLayer.h */,
+				274C5A461D32997D002654CB /* MSArcLayer.m */,
+				274C5A471D32997D002654CB /* MSArcLayerSubclass.h */,
+				274C5A481D32997D002654CB /* MSGradientArcLayer.h */,
+				274C5A491D32997D002654CB /* MSGradientArcLayer.m */,
+				274C5A4A1D32997D002654CB /* MSNeedleView.h */,
+				274C5A4B1D32997D002654CB /* MSNeedleView.m */,
+				274C5A4C1D32997D002654CB /* MSRangeGauge.h */,
+				274C5A4D1D32997D002654CB /* MSRangeGauge.m */,
+				274C5A4E1D32997D002654CB /* MSSimpleGauge.h */,
+				274C5A4F1D32997D002654CB /* MSSimpleGauge.m */,
+				274C5A501D32997D002654CB /* MSSimpleGaugeSubclass.h */,
+			);
+			name = Gauges;
+			sourceTree = "<group>";
+		};
+		274C5A3F1D3298FA002654CB /* Pie Chart */ = {
+			isa = PBXGroup;
+			children = (
+				274C5A401D329976002654CB /* PCPieChart.h */,
+				274C5A411D329976002654CB /* PCPieChart.m */,
+			);
+			name = "Pie Chart";
+			sourceTree = "<group>";
+		};
+		274C5A571D329992002654CB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				274C5A6A1D329AA7002654CB /* CoreGraphics.framework */,
+				274C5A681D329AA1002654CB /* Foundation.framework */,
+				274C5A661D329A99002654CB /* UIKit.framework */,
+				274C5A641D329A94002654CB /* CoreTelephony.framework */,
+				274C5A621D329A8B002654CB /* Security.framework */,
+				274C5A601D329A7A002654CB /* CoreMotion.framework */,
+				274C5A5E1D329A74002654CB /* CoreText.framework */,
+				274C5A5C1D329A6B002654CB /* ExternalAccessory.framework */,
+				274C5A5A1D329A61002654CB /* AVFoundation.framework */,
+				274C5A581D329A5A002654CB /* QuartzCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		274C5A6C1D32AF01002654CB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				274C5A6F1D32AF4D002654CB /* SSAccelerometerInfo.h */,
+				274C5A701D32AF4D002654CB /* SSAccelerometerInfo.m */,
+				274C5A721D333AE4002654CB /* SSAccessoryInfo.h */,
+				274C5A731D333AE4002654CB /* SSAccessoryInfo.m */,
+				274C5A751D339F0B002654CB /* SSApplicationInfo.h */,
+				274C5A761D339F0B002654CB /* SSApplicationInfo.m */,
+				274C5A781D348FAA002654CB /* SSBatteryInfo.h */,
+				274C5A791D348FAA002654CB /* SSBatteryInfo.m */,
+				274C5A7B1D349154002654CB /* SSCarrierInfo.h */,
+				274C5A7C1D349154002654CB /* SSCarrierInfo.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		274C5A6D1D32AF17002654CB /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				274C59F81D32951A002654CB /* AppDelegate.h */,
+				274C59F91D32951A002654CB /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		274C5A6E1D32AF26002654CB /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				274C59FE1D32951A002654CB /* Main.storyboard */,
+				274C5A031D32951A002654CB /* LaunchScreen.storyboard */,
+			);
+			name = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,8 +440,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				274C5A051D32951A002654CB /* LaunchScreen.storyboard in Resources */,
+				274C5A361D3298E5002654CB /* Hardware.png in Resources */,
 				274C5A021D32951A002654CB /* Assets.xcassets in Resources */,
+				274C5A341D3298E5002654CB /* Disk.png in Resources */,
+				274C5A3B1D3298E5002654CB /* Network@2x.png in Resources */,
+				274C5A3A1D3298E5002654CB /* Network.png in Resources */,
+				274C5A391D3298E5002654CB /* Memory@2x.png in Resources */,
+				274C5A3D1D3298E5002654CB /* Processes@2x.png in Resources */,
+				274C5A371D3298E5002654CB /* Hardware@2x.png in Resources */,
+				274C5A351D3298E5002654CB /* Disk@2x.png in Resources */,
+				274C5A381D3298E5002654CB /* Memory.png in Resources */,
 				274C5A001D32951A002654CB /* Main.storyboard in Resources */,
+				274C5A3C1D3298E5002654CB /* Processes.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +476,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				274C59FD1D32951A002654CB /* ViewController.m in Sources */,
+				274C5A551D32997D002654CB /* MSRangeGauge.m in Sources */,
+				274C5A561D32997D002654CB /* MSSimpleGauge.m in Sources */,
+				274C5A541D32997D002654CB /* MSNeedleView.m in Sources */,
 				274C59FA1D32951A002654CB /* AppDelegate.m in Sources */,
+				274C5A7D1D349154002654CB /* SSCarrierInfo.m in Sources */,
+				274C5A421D329976002654CB /* PCPieChart.m in Sources */,
+				274C5A741D333AE4002654CB /* SSAccessoryInfo.m in Sources */,
+				274C5A711D32AF4D002654CB /* SSAccelerometerInfo.m in Sources */,
+				274C5A531D32997D002654CB /* MSGradientArcLayer.m in Sources */,
+				274C5A7A1D348FAA002654CB /* SSBatteryInfo.m in Sources */,
+				274C5A771D339F0B002654CB /* SSApplicationInfo.m in Sources */,
+				274C5A511D32997D002654CB /* MSAnnotatedGauge.m in Sources */,
+				274C5A521D32997D002654CB /* MSArcLayer.m in Sources */,
 				274C59F71D32951A002654CB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -501,6 +715,7 @@
 				274C5A211D32951A002654CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		274C5A221D32951A002654CB /* Build configuration list for PBXNativeTarget "SystemServiceTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +724,7 @@
 				274C5A241D32951A002654CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		274C5A251D32951A002654CB /* Build configuration list for PBXNativeTarget "SystemServiceUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +733,7 @@
 				274C5A271D32951A002654CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
